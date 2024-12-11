@@ -1,0 +1,6 @@
+cffi==1.17.1
+lameenc==1.4.2
+pycparser==2.22
+sherpa-onnx==1.10.34
+soundfile==0.12.1
+Wave==0.0.2

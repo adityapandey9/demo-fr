@@ -1,0 +1,6 @@
+.venv
+build
+build/*
+sherpa_ort.egg-info
+sherpa_ort.egg-info/*
+__pycache__
