@@ -31,9 +31,8 @@ def get_word_timestamps(audio_file, text):
         end_time = current_time + word_duration
         word_timestamps.append({
             "word": word,
-            "start": round(start_time, 3),  # Start time in seconds
-            "end": round(end_time, 3),      # End time in seconds
-            "score": 1.0,                   # Default confidence score
+            "start": round(start_time, 15),  # Start time in seconds
+            "end": round(end_time, 15),      # End time in seconds
             "text_offset": index            # Word position in text
         })
         current_time = end_time
